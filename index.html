@@ -1,0 +1,77 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/72c30b7157.js" crossorigin="anonymous"></script>
+        <script src = "practice.js" ></script>
+
+        <style>
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+      
+        </style>
+    </head>
+    <body>
+    
+
+
+
+        <div class="container mt-5 " style="border:solid 2px ; background-color: #000000; height: 450px; width:288px;border-radius: 10px;">
+            <div >
+                <input type='text' id='result' class ='screen'  inputmode="numeric" style="width :200px ;height: 45px; border-bottom: #ffffff solid 1px;border-right: transparent; font-size:larger;    outline: none !important; background-color: #000000; color:#ffffff; margin-top: 20px;margin-bottom: 20px; margin-left: 20px;">
+                
+
+
+                <button  class="btn  btn-lg fa-solid fa-c"  onclick="clearScreen()" style="background-color:#a6a6a6; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button  class="btn  btn-lg fa-solid fa-1"  onclick="display('1')" style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button  class="btn  btn-lg fa-solid fa-2" value = "2" onclick="display('2')" style="background-color:#333333; color:#ffffff;border-radius:50% ;height: 60px; width:60px ; margin-bottom: 10px;"></button>
+                <button class="btn btn-lg fa-solid fa-divide" onclick="display('/')" style="background-color:#fb9502; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button class="btn  btn-lg fa-solid fa-3" value = "3" onclick="display('3')" style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom:10px;"></button>
+
+                <button class="btn  btn-lg fa-solid fa-4" value = "4" onclick="display('4')" style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button class="btn  btn-lg fa-solid fa-5" value = "5" onclick="display('5')" style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button class="btn btn-lg fa-solid fa-xmark " onclick="display('*')" style="background-color:#fb9502;  color:#ffffff;border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button class="btn  btn-lg fa-solid fa-6 " value = "6" onclick="display('6')"style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+
+                <button class="btn  btn-lg fa-solid fa-7"value = "7" onclick="display('7')" style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button class="btn  btn-lg fa-solid fa-8" value = "8"onclick="display('8')" style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button class="btn btn-lg fa-solid fa-minus " onclick="display('-')" style="background-color:#fb9502; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;" ></button>
+                <button class="btn  btn-lg fa-solid fa-9" value = "9"onclick="display('9')" style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+
+
+
+                <button class="btn  btn-lg fa-solid fa-0"  style="background-color:#333333; color:#ffffff; border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                <button class="btn  btn-lg " style="background-color:#333333;  border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"><i class="fa-solid fa-circle fa-2xs dot"  style="color:#ffffff;"></i></button>
+                <button class="btn  btn-lg fa-solid fa-plus" onclick="display('+')" style="background-color:#fb9502;  color:#ffffff;border-radius:50% ;height: 60px; width:60px; margin-bottom: 10px;"></button>
+                
+                
+                
+                <button class="btn btn-lg fa-solid fa-equals" value= "=" class="button equal-sign" onclick="solve()" style="background-color:#fb9502; color:#ffffff; border-radius:20px ;height: 60px; width:255px; margin-bottom: 8px;"></button>
+
+            </form>
+            
+            </div>
+            
+
+        </div>
+        <p id="result"> </p> 
+
+        <!-- <h1>Calculator</h1>
+        <input type="number" id="firstnum" placeholder="first number">
+        <input type="number" id="Secondnum" placeholder="Second number">
+        <button onclick="plus()"> Add</button>
+        <button onclick="sub()"> Subtract</button>
+        <button onclick="mult()"> Multiply</button>
+        <button onclick="div()"> Divide</button>
+   <p id="result"> </p> -->
+
+
+    </body>
+<html>
